@@ -1,0 +1,23 @@
+POST http://127.0.0.1:8000/api/transactions/
+Content-Type: application/json
+
+{
+    "text": "Yaourt",
+    "amount": 400.00
+}
+
+###
+
+GET http://127.0.0.1:8000/api/transactions/
+
+###
+DELETE  http://127.0.0.1:8000/api/transactions/26e90f7b-6b7b-434a-856e-1aa3e9afac3f/
+
+###
+PUT http://127.0.0.1:8000/api/transactions/bceb6cb7-142b-4210-a32c-78fc202b76b9/
+Content-Type: application/json
+
+{
+    "text": "MOUGIULI",
+    "amount": 5000.00
+}
